@@ -4,62 +4,387 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brunch</title>
-    <link rel="icon" href="../images/circel.png">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="../assests/style.css">
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
-    <!-- start navbar -->
-<div class=header id="header">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
-              <a class="navbar-brand BRUNCH" href="#">brunch</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link WELCOME active" aria-current="page" href="#">welcome</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link MENU" href="#">menu</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link EVENT " href="#">event</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link CONTACT" href="#">contact</a>
-                  </li>
-                </ul>
-                
-              </div>
-            </div>
-          </nav>
-    </div>
+    <title>BURGER HOUSE</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="icon" href="../src/images/Burger Image top.png">
+    <!-- bootstrap 5 cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
-</div>
-    <!-- end navbar -->
-    <!-- counter -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+
+<link rel="stylesheet" href="../node_modules/@icon/icofont/icofont.css">
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+<!-- 
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> -->
+<script src="../node_modules/countup/dist/countUp.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.0/countUp.min.js"></script>
+<script src="../node_modules/countup/countUp-jquery.js">
+  </script>
+  <script src="../node_modules/countup/countUp.js">
+
+  </script>
+ <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+
+ <!-- team2 -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css">
 <link rel="stylesheet" href="https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/owl.carousel.min.js"></script>
+ <!-- end team2 -->
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+  <div class="preloder">
+   
+  </div>
+    <!-- start top navbar -->
+    <header id="head-nab" class="head-nab">
+<!--        
+        <div class="right-logo justify-content-end d-flex ">
+            <img src="../src/images/Scooter top.png" class="img-fluid flex-column " alt=""> express delivery +1 234567890</span>
+            </div> -->
+            
+
+        <nav class="navbar navbar-expand-lg fixed-top  ">
+           
+      
+            <div class="container">
+              <a class="navbar-brand " href="#"><img src="../src/images/logo.png" class="img-fluid" alt=""> </a>
+             
+
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse navbar" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#try-it">menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">our story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#footer">contact us</a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <!-- </header> -->
+    <section id="burger-week" class="burger-week">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <p data-aos="fade-right" data-aos-duration="3000">it is a good time for ther great taste of burgers</p>
+                        <h1 data-aos="fade-right" data-aos-duration="1000"  id="typewriter">burger</h1>
+                        <h2 data-aos="fade-up-right" data-aos-duration="3000">week</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="multiple-img" data-aos="fade-down-left" data-aos-duration="3000">
+               
+                </div>
+            </div>
+
+        </div>
+</div>
+    </section>
+    </header>
+  
+ <!-- End top navbar -->
+<!-- try it section start -->
+<section id="try-it" class="try-it">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="try-it-first-col">
+<p data-aos="fade-right" data-aos-duration="1000">
+  try it today
+</p>
+<h3 data-aos="fade-right" data-aos-duration="3000">most populat burger</h3>
+
+
+    
+</div>
+</div>
+
+  <div class="col-lg-6" >
+    <div class="row gy-4 ">
+      <div class="col-lg-12" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="try-it-second-col">
+      <p data-aos="zoom-in-up" data-aos-duration="3000">try it today</p>
+      <h3>more fun <br>more taste</h3>
+
+      </div>
+    </div>
+ 
+  <div class="col-lg-12" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="try-it-secon-col">
+      <p>try it today</p>
+      <h3>fresh & chili</h3>
+      </div>
+  </div>
+</div>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-- try it section end -->
+
+<!-- start choose & enjoy -->
+<section id="choose-enjoy" class="choose-enjoy">
+  <div class="container justify-content-center">
+    <div class="header mt-5">
+      <h4 data-aos="zoom-in-up" data-aos-duration="3000">always tasty burger</h4>
+      <h1>choose & enjoy</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro doloremque dolore in iure rerum laudantium itaque nihil blanditiis asperiores, enim soluta quas culpa corrupti aliquam aspernatur officia repellat voluptate!</p>
+    </div>
+  </div>
+<div class="three-col-burger">
+  <div class="row mx-3">
+    <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="first-col-burger">
+<img src="../src/images/lorem.png" class="img-fluid mx-auto img-responsive" alt="">
+<br>
+<img src="../src/images/Shadow top.png" class="img-fluid mx-auto " alt="">
+<h1>kuldeep sharma</h1>
+<p>hello this is kuldeep sharma from gwalior and i have done mca from rajiv gandhi colloeg bhopal</p>
+<div class="text-center">
+<button class="btn btn-danger text-center btn-order-now">
+order now
+</button>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="second-col-burger">
+      <img src="../src/images/lorem.png" class="img-fluid mx-auto " alt="">
+<br>
+<img src="../src/images/Shadow top.png" class="img-fluid mx-auto " alt="">
+<h1>kuldeep sharma</h1>
+<p>hello this is kuldeep sharma from gwalior and i have done mca from rajiv gandhi colloeg bhopal</p>
+<div class="col text-center text-white">
+<button class="btn btn-danger text-white btn-order-now">order now
+</button>
+</div>
+    </div>
+    </div>
+    <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="3000">
+    <div class="third-col-burger">
+      <img src="../src/images/lorem.png" class="img-fluid mx-auto " alt="">
+<br>
+<img src="../src/images/Shadow top.png" class="img-fluid mx-auto " alt="">
+<h1>kuldeep sharma</h1>
+<p>hello this is kuldeep sharma from gwalior and i have done mca from rajiv gandhi colloeg bhopal</p>
+<div class="col text-center">
+<button class="btn btn-danger text-center btn-order-now">
+order now
+</button>
+    </div>
+  </div>
+</div>
+</section>
+<!-- End choose & enjoy -->
+
+<!-- start carousal -->
+<section id="carousel" class="carousel ">
+  <div class="demo">
+    <div class="container">
+      <div class="row">
+        <div id="testimonial-slider" class="owl-carousel">
+          <div class="testimonial">
+            <span class="icon fa fa-quote-left"></span>
+            <p class="description">
+              
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../src/images/Burger Image top.png" alt="">
+              </div>
+              <h3 class="name">Michele Miller</h3>
+              <span class="title">Project Manager</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="icon fa fa-quote-left"></span>
+            <p class="description">
+              
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../src/images/Burger Image top.png" alt="">
+              </div>
+              <h3 class="name">Patricia Knott</h3>
+              <span class="title">Web Developer</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="icon fa fa-quote-left"></span>
+            <p class="description">
+              
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../src/images/Burger Image top.png" alt="">
+              </div>
+              <h3 class="name">Justin Ramos</h3>
+              <span class="title">Web Developer</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="icon fa fa-quote-left"></span>
+            <p class="description">
+              
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../src/images/Burger Image top.png" alt="">
+               
+              </div>
+              <h3 class="name">Mary Huntley</h3>
+              <span class="title">Web Developer</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="icon fa fa-quote-left"></span>
+            <p class="description">
+            
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../src/images/Burger Image top.png" alt="">
+              </div>
+              <h3 class="name">Aaron Newell</h3>
+              <span class="title">Web Developer</span>
+            </div>
+          </div>
+                  <div class="testimonial">
+            <span class="icon fa fa-quote-left"></span>
+            <p class="description">
+             
+            </p>
+            <div class="testimonial-content">
+              <div class="pic">
+                <img src="../src/images/Burger Image top.png" alt="">
+              </div>
+              <h3 class="name">Lizzie Geren</h3>
+              <span class="title">Web Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+
+<!-- end carousal -->
 
 
 
-<!-- teams -->
+
+
+<!-- start reservation form -->
+<section id="reservation" class="reservation">
+  <div class="container-fluid">
+    <div class="reservation-text">
+      <p>reservation</p>
+      <h2>book your table</h2>
+    </div>
+<form action="" class="reservation-form">
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-down-right" data-aos-duration="1500">
+        <input type="text" class="form-control" required="required" placeholder="NAME">
+        <br>
+        <input type="date" class="form-control" required="required" placeholder="DATE">
+        <br>
+        <input type="text" class="form-control" required="required" placeholder="PEOPLE">
+        <br>
+      </div>
+      <div class="col-lg-4" data-aos="fade-down-left" data-aos-duration="1500">
+        <input type="email"  pattern=".+@globex\.com" size="30"  class="form-control" required="required" placeholder="EMAIL">
+      
+        <br>
+        <input type="time" class="form-control" required="required" placeholder="TIME">
+        <br>
+        <div class="d-grid gap-2 d-block">
+        <button class="btn btn-danger text-uppercase ">find a table</button>
+      </div>
+    </div>
+    </div>
+    </form>
+</div>
+</section>
+<!-- end reservation form -->
+<!-- start teem -->
+
+
+
+
+<!-- end-teem -->
+<!-- start counter -->
+<section id="counter" class="counter">
+<div class="count-area" >
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-2">
+              <div class="count-area-content">
+                  <div class="count-icon">  <i class="fa fa-home"></i></div>
+                  <div class="count-digit">9</div>
+                  <div class="count-title"> Count Title </div>
+              </div>
+          </div>
+          <div class="col-lg-2">
+              <div class="count-area-content">
+                  <div class="count-icon">  <i class="fa fa-graduation-cap"></i></div>
+                  <div class="count-digit">80</div>
+                  <div class="count-title">  Count Title</div>
+              </div>
+          </div>
+          <div class="col-lg-2">
+              <div class="count-area-content">
+                  <div class="count-icon">  <i class="fa fa-user"></i></div>
+                  <div class="count-digit">742</div>
+                  <div class="count-title">  Count Title </div>
+              </div>
+          </div>
+          <div class="col-lg-2">
+              <div class="count-area-content">
+                  <div class="count-icon">  <i class="fa fa-book"></i></div>
+                  <div class="count-digit">1200</div>
+                  <div class="count-title"> Count Title </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-- end counter -->
+<!-- team2 -->
 <section class="teams" style="width:100%;">
 	<div class="container">
 
@@ -70,7 +395,7 @@
             <!--team 1 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://homedroidtech.com/assets/images/team/ankurgupta.jpeg" alt="ankurgupta">
+                <img class="img-circle" src="../src/images/Burger Image top.png" alt="ankurgupta">
                 <h2>Ankur Gupta</h2>
 								<p class="title">Director, Founder & CEO</p>
 									<div id="pastexp">
@@ -80,18 +405,20 @@
 									</div>
 										<div class="social-icons" id="teamsocial">
 														<a class="social-icon social-icon--facebook" id="socialicon">
-															<img src="https://i.imgur.com/c9JxYPS.png">
+                             
+                              <i class="icofont icofont-facebook"></i>
+											
 														</a>
 														
 														<a class="social-icon social-icon--twitter" id="socialicon">
-															<img src="https://i.imgur.com/VHB4APa.png">
+                              <i class="icofont icofont-twitter"></i>
 														</a>
 														<a class="social-icon social-icon--linkedin" id="socialicon">
-															<img src="https://i.imgur.com/egfJ4V2.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 														<a class="social-icon social-icon--instagram" id="socialicon">
-															<img src="https://i.imgur.com/cgH07pQ.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 
@@ -112,7 +439,7 @@
                        <!--team 2 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://homedroidtech.com/assets/images/team/sushilgupta.jpeg" alt="ankurgupta">
+                <img class="img-circle" src="../src/images/Burger Image top.png" alt="ankurgupta">
                 <h2>Sushil Gupta</h2>
 								<p class="title">Co-Founder & Managing Director</p>
 									<div id="pastexp">
@@ -122,18 +449,18 @@
 									</div>
 										<div class="social-icons" id="teamsocial">
 														<a class="social-icon social-icon--facebook" id="socialicon">
-															<img src="https://i.imgur.com/c9JxYPS.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 														<a class="social-icon social-icon--twitter" id="socialicon">
-															<img src="https://i.imgur.com/VHB4APa.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														<a class="social-icon social-icon--linkedin" id="socialicon">
-															<img src="https://i.imgur.com/egfJ4V2.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 														<a class="social-icon social-icon--instagram" id="socialicon">
-															<img src="https://i.imgur.com/cgH07pQ.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 
@@ -154,7 +481,7 @@
                        <!--team 3 -->
             <div class="item">
               <div class="shadow-effect">
-                <img class="img-circle" src="http://homedroidtech.com/assets/images/team/parveen.jpeg" alt="ankurgupta">
+                <img class="img-circle" src="../src/images/Burger Image top.png" alt="ankurgupta">
                 <h2>Parveen Kumar</h2>
 								<p class="title">Member, Technical Advisory Board</p>
 									<div id="pastexp">
@@ -164,26 +491,21 @@
 									</div>
 										<div class="social-icons" id="teamsocial">
 														<a class="social-icon social-icon--facebook" id="socialicon">
-															<img src="https://i.imgur.com/c9JxYPS.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 														<a class="social-icon social-icon--twitter" id="socialicon">
-															<img src="https://i.imgur.com/VHB4APa.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														<a class="social-icon social-icon--linkedin" id="socialicon">
-															<img src="https://i.imgur.com/egfJ4V2.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
 														
 														<a class="social-icon social-icon--instagram" id="socialicon">
-															<img src="https://i.imgur.com/cgH07pQ.png">
+															  <i class="icofont icofont-facebook"></i>
 														</a>
+														</div>  <!--Social Icons End Here-->
 														
-
-									</div>  <!--Social Icons End Here-->
-								
-								
-								
-								
 								
 								
               </div>
@@ -200,71 +522,174 @@
     </section>
     <!-- END OF teams -->
 
-<!-- start footer section -->
-<div class="footer">
-  <div class="container">
-<div class="row">
-<div class="col-lg-3">
-  <div class="brand">
-    <h3>gp <span>.</span>  </h3>
-    <p>A108 Adam Street
-      NY 535022, USA</p>
-     <span style="font-weight: 400!important">Phone</span> : +1 5589 55488 55
+
+
+
+<!-- end team2 -->
+
+<!-- start footer -->
+<footer id="footer" class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="logo-first">
+          <img src="../src/images/logo footer.png" class="img-fluid" alt="">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, labore quisquam recusandae debitis consequuntur adipisci quasi autem delectus aspernatur distinctio illum hic deleniti tempore suscipit repellat doloribus veritatis voluptatibus omnis.</p>
+        </div>
+      </div>
+      </div>
+<div class="col-lg-6">
+  <div class="icon">
+    <!-- <i class="icofont icofont-10x  icofont-location-pin text-white"> -->
+  <img src="../src/images/Location Icon.png" class="img-fluid" alt="">
+  <span >Police line jail road <strong>gwalior</strong></span></i>
+  <br>
+  <img src="../src/images/Email.png" class="img-fluid" alt=""> <span>kuldeep@gmail.com</span>
+</div>
+</div>
+</div>
+
+<div class="bottom-footer">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="copyride">
+    <p class="type">&#169 All rides resevid by kuldeep sharma</p>
   </div>
-
 </div>
-<div class="col-lg-2">
-
-</div>
-<div class="col-lg-2">
-
-</div>
-<div class="col-lg-5">
-
-</div>
-
-
-
-</div>
-
-
-
-
-
+<div class="col-lg-6" >
+  <div class="social-media-icon" >
+    <i class="icofont icofont-facebook"></i>
+    <i class="icofont icofont-twitter"></i>
+    <i class="icofont icofont-whatsapp"></i>
+    <i class="icofont icofont-linkedin"></i>
+    <i class="icofont icofont-yahoo"></i>
   </div>
 </div>
 
+</footer>
 
 
 
 
 <!-- end footer -->
 
+<!-- 
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">   -->
+     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  -->
+
+<!-- preloder -->
+
 <script>
-     $('#customers-teams').owlCarousel({
-		            loop: true,
-		            center: true,
-		            items: 3,
-		            margin: 0,
-		            autoplay: true,
-		            dots:true,
-		            autoplayTimeout: 4500,
-							  checkVisibility: true,
-		            responsive: {
-		              0: {
-		                items: 1
-		              },
-		              768: {
-		                items: 2
-		              },
-		              1170: {
-		                items: 3
-		              }
-		            }
-		        });
+  $(window).on("load", function(){
+    $(".preloder").fadeOut(2000);
+  });
+  </script>
+
+<!-- back to top button -->
+<div class="container-fluid bg-danger">
+  <a href="#slied" id="button"></a>
+</div>
+<!-- back to top button -->
+<script>
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '3000');
+});
+</script>
+<!-- counter -->
+
+<script>
+function visible(partial) {
+    var $t = partial,
+        $w = jQuery(window),
+        viewTop = $w.scrollTop(),
+        viewBottom = viewTop + $w.height(),
+        _top = $t.offset().top,
+        _bottom = _top + $t.height(),
+        compareTop = partial === true ? _bottom : _top,
+        compareBottom = partial === true ? _top : _bottom;
+
+    return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
+
+}
+
+$(window).scroll(function(){
+
+  if(visible($('.count-digit')))
+    {
+      if($('.count-digit').hasClass('counter-loaded')) return;
+      $('.count-digit').addClass('counter-loaded');
+      
+$('.count-digit').each(function () {
+  var $this = $(this);
+  jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+    duration: 1000,
+    easing: 'swing',
+    step: function () {
+      $this.text(Math.ceil(this.Counter));
+    }
+  });
+});
+    }
+})
+</script>
+<!-- team2 -->
+
+<script>
+$('#customers-teams').owlCarousel({
+  loop: true,
+  center: true,
+  items: 3,
+  margin: 0,
+  autoplay: true,
+  dots:true,
+  autoplayTimeout: 4500,
+  checkVisibility: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    768: {
+      items: 2
+    },
+    1170: {
+      items: 3
+    }
+  }
+});
 
 </script>
+<!-- carousal -->
+<script>
+  $(document).ready(function() {
+  $("#testimonial-slider").owlCarousel({
+    items: 3,
+    itemsDesktop:[100,3],
+    itemsDesktopSmall:[979,2],
+    itemsTablet:[768, 2],
+    itemsMobile:[650, 1],
+    pagination: true,
+    autoPlay: true
+  });
+});
+</script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
+<!-- Aos -->
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
